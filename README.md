@@ -11,7 +11,7 @@ Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng đi�
 ## Thông số kỹ thuật
 
 - Nguồn cấp: 8~18VDC (tối đa 40VDC).
-- Dòng điện tải mạch: dòng điện động cơ trung bình 30A .
+- Dòng điện tải mạch: 20A (tải cảm), 50A (tải trở).
 - Tín hiệu logic điều khiển: 3.3~5VDC.
 - Tần số điều khiển: hoạt động ổn định ở tần số 30kHz, tần số thấp hơn có thể làm giảm hiệu năng.
 - Tự động shut down khi điện áp thấp ở chân Vin thấp.
@@ -50,19 +50,19 @@ Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng đi�
   </tr>
   <tr>
     <td>EN_1</td>
-    <td>chân cho phép PWM1</td>
+    <td>EN_1 = 0: Disable OUT1; EN_1 = 1: Enable OUT1</td>
   </tr>
   <tr>
     <td>EN_2</td>
-    <td>chân cho phép PWM2</td>
+    <td>EN_2 = 0: Disable OUT2; EN_2 = 1: Enable OUT2</td>
   </tr>
   <tr>
     <td>PWM1</td>
-    <td>cấp xung PWM</td>
+    <td>Điều khiển đảo chiều và tốc độ động cơ</td>
   </tr>
   <tr>
     <td>PWM2</td>
-    <td>cấp xung PWM</td>
+    <td>Điều khiển đảo chiều và tốc độ động cơ</td>
   </tr>
 </tbody>
 </table>
