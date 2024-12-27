@@ -14,7 +14,7 @@ Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng đi�
 - Dòng điện tải mạch: dòng điện động cơ trung bình 30A .
 - Tín hiệu logic điều khiển: 3.3~5VDC.
 - Tần số điều khiển: hoạt động ổn định ở tần số 30kHz, tần số thấp hơn có thể làm giảm hiệu năng.
-- Tự động shut down khi điện áp thấp: Nếu điện áp < 5.5VDC, driver sẽ tự ngắt điện và sẽ mở lại sau khi điện áp > 5.5VDC.
+- Tự động shut down khi điện áp thấp ở chân Vin thấp.
 - Bảo vệ quá nhiệt: BTN8982 bảo vệ chống quá nhiệt bằng cảm biến tích hợp bên trong. Đầu ra sẽ bị ngắt khi có hiện tượng quá nhiệt.
 - Chống cấp ngược nguồn: tích hợp MOSFET P giúp bảo vệ mạch khi cấp ngược nguồn ở chân Vin.
 - Kích thước: 89 x 61 x 27mm.
