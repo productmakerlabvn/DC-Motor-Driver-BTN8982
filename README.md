@@ -92,10 +92,14 @@ Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng đi�
 </tbody>
 </table>
 
-## Hướng dẫn sử dụng với STM32F103RCT6STM32F103RCT6
-
+## Hướng dẫn sử dụng với Vietduino Uno
+  Sử dụng Vietduino Uno điều khiển 1 động cơ DC thông qua shield DC Motor Driver BTN8982
 ### Các thiết bị sử dụng trong bài hướng dẫn
-
+- Mạch Vietduino Uno USB-B (Arduino Uno Compatible) x 1
+- Mạch MakerEdu Shield for Vietduino x 1
+- DC Motor Driver BTN8982
+- Mạch hiển thị MKE-M07 LCD1602 I2C module x 1
+- Mạch biến trở MKE-M04 potentiometer module x 2
 
 ## Hỗ trợ và liên hệ
 
