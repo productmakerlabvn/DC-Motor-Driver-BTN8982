@@ -7,6 +7,10 @@ const int potPin1 = A1;  // Biến trở thứ nhất kết nối với chân A1
 const int potPin2 = A2;  // Biến trở thứ hai kết nối với chân A2
 const int pwmPin = 9;    // Chân số 9 để xuất tín hiệu PWM
 
+/*  chân EN_1, EN_2 nối với nguồn 3.3V
+    chân PWM2 nối GND
+*/
+
 int frequencyNew = 0, frequencyOld = 0; 
 int dutyCycle = 0, DO = 0;
 
