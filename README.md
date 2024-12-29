@@ -1,12 +1,12 @@
 # Mạch điều khiển động cơ DC Motor Driver BTN8982
 
-![](/image/BTN8982_front.jpg)
+![](/image/BTN8982.jpg)
 
 ## Giới thiệu
 
 Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng điều khiển động cơ ở tần số cao (ổn định ở mức 30kHz). Driver có thể điều khiển được một động cơ DC 2 chiều có chổi than hoặc hai động cơ DC 1 chiều. Mạch tích hợp MOSFET P chống cấp ngược nguồn và IC chuyển mức tín hiệu (3.3/5VDC) 74HC244 giúp kết nối an toàn với vi điều khiển khi sử dụng. 
 
-> **Cảnh báo:**  
+Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ dàng điều khiểu DC Motor Driver BTN8982.
 
 ## Thông số kỹ thuật
 
@@ -17,7 +17,7 @@ Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng đi�
 - Tự động shut down khi điện áp thấp ở chân Vin thấp.
 - Bảo vệ quá nhiệt: BTN8982 bảo vệ chống quá nhiệt bằng cảm biến tích hợp bên trong. Đầu ra sẽ bị ngắt khi có hiện tượng quá nhiệt.
 - Chống cấp ngược nguồn: tích hợp MOSFET P giúp bảo vệ mạch khi cấp ngược nguồn ở chân Vin.
-- Kích thước: 89 x 61 x 27mm.
+- Kích thước: 90 x 60 x 27mm.
 
 ## Kích thước
 
@@ -25,7 +25,7 @@ Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng đi�
 
 ## Các chân tín hiệu
 
-![](/image/BTN8982_backside.jpg)
+![](/image/BTN8982.jpg)
 <table><thead>
   <tr>
     <th>DC Motor Driver BTN8982/ Chân tín hiệu</th>
@@ -93,13 +93,11 @@ Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng đi�
 </table>
 
 ## Hướng dẫn sử dụng với Vietduino Uno
-  Sử dụng Vietduino Uno điều khiển 1 động cơ DC thông qua shield DC Motor Driver BTN8982
-### Các thiết bị sử dụng trong bài hướng dẫn
-- Mạch Vietduino Uno USB-B (Arduino Uno Compatible) x 1
-- Mạch MakerEdu Shield for Vietduino x 1
-- DC Motor Driver BTN8982
-- Mạch hiển thị MKE-M07 LCD1602 I2C module x 1
-- Mạch biến trở MKE-M04 potentiometer module x 2
+  Sử dụng Vietduino Uno cấp xung PWM cho DC Motor Driver BTN8982 để điều khiển một động cơ DC 12V quay thuận - nghịch.
+
+![](/image/circuit.png)
+
+[tải chương trình mẫu tại đây](\arduino\dao_chieu_dong_co_DC\dao_chieu_dong_co_DC.ino)
 
 ## Hỗ trợ và liên hệ
 
