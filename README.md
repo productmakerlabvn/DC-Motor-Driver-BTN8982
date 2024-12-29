@@ -97,7 +97,7 @@ Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ d
 
 ![](/image/circuit.png)
 
-[tải chương trình mẫu tại đây](arduinod/ao_chieu_dong_co_DC)
+[tải chương trình mẫu tại đây](arduino/dao_chieu_dong_co_DC)
 
 ## Hỗ trợ và liên hệ
 
