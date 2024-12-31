@@ -26,7 +26,7 @@ Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ d
 
 ## Kích thước
 
-<!-- ![](/image/MKE_M10_2.jpg) -->
+![](/image/size.jpg)
 
 ## Các chân tín hiệu
 
