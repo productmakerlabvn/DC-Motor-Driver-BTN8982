@@ -1,6 +1,6 @@
 # Mạch điều khiển động cơ DC Motor Driver BTN8982
 
-![](/image/BTN8982.jpg)
+![](/image/BTN8982_c.jpg) ![](/image/BTN8982_b.jpg)
 
 ## Giới thiệu
 
@@ -22,7 +22,7 @@ Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ d
 - Tự động shut down khi điện áp thấp ở chân Vin thấp.
 - Bảo vệ quá nhiệt: BTN8982 bảo vệ chống quá nhiệt bằng cảm biến tích hợp bên trong. Đầu ra sẽ bị ngắt khi có hiện tượng quá nhiệt.
 - Chống cấp ngược nguồn: tích hợp MOSFET P giúp bảo vệ mạch khi cấp ngược nguồn ở chân Vin.
-- Kích thước: 90 x 60 x 27mm.
+- Kích thước: 88 x 60 x 27mm.
 
 ## Kích thước
 
@@ -30,7 +30,7 @@ Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ d
 
 ## Các chân tín hiệu
 
-![](/image/BTN8982.jpg)
+![](/image/BTN8982_a.jpg)
 <table><thead>
   <tr>
     <th>DC Motor Driver BTN8982/ Chân tín hiệu</th>
@@ -100,7 +100,7 @@ Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ d
 ## Hướng dẫn sử dụng với Vietduino Uno
   Sử dụng Vietduino Uno cấp xung PWM cho DC Motor Driver BTN8982 để điều khiển một động cơ DC 12V quay thuận - nghịch.
 
-![](/image/circuit.png)
+![](/image/circuit_1.png)
 
 [tải chương trình mẫu tại đây](arduino/BTN8982_test)
 
