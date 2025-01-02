@@ -1,10 +1,15 @@
 # Mạch điều khiển động cơ DC Motor Driver BTN8982
 
-![](/image/BTN8982.jpg)
+![](/image/BTN8982_c.jpg) ![](/image/BTN8982_b.jpg)
 
 ## Giới thiệu
 
 Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng điều khiển động cơ ở tần số cao (ổn định ở mức 30kHz). Driver có thể điều khiển được một động cơ DC 2 chiều có chổi than hoặc hai động cơ DC 1 chiều. Mạch tích hợp MOSFET P chống cấp ngược nguồn và IC chuyển mức tín hiệu (3.3/5VDC) 74HC244 giúp kết nối an toàn với vi điều khiển khi sử dụng. 
+
+- Tích hợp tính năng bảo vệ chống cấp ngược nguồn.
+- Tích hợp IC buffer điều khiển dòng và bảo vệ các tín hiệu đầu vào/đầu ra. IC này có thể hoạt động như một bộ đệm 8 bit, giúp tăng cường tín hiệu và bảo vệ các vi điều khiển khỏi các tín hiệu nhiễu.
+- IC BTN8982 được thiết kế để điều khiển động cơ DC với dòng điện cao, cung cấp các chức năng bảo vệ như chống quá nhiệt, chống quá dòng và chống ngắn mạch.
+- Mạch đồng dày 2Oz giúp tăng khả năng dẫn điện và tản nhiệt khi có dòng điện cao.
 
 Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ dàng điều khiểu DC Motor Driver BTN8982.
 
@@ -17,15 +22,15 @@ Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ d
 - Tự động shut down khi điện áp thấp ở chân Vin thấp.
 - Bảo vệ quá nhiệt: BTN8982 bảo vệ chống quá nhiệt bằng cảm biến tích hợp bên trong. Đầu ra sẽ bị ngắt khi có hiện tượng quá nhiệt.
 - Chống cấp ngược nguồn: tích hợp MOSFET P giúp bảo vệ mạch khi cấp ngược nguồn ở chân Vin.
-- Kích thước: 90 x 60 x 27mm.
+- Kích thước: 88 x 60 x 27mm.
 
 ## Kích thước
 
-<!-- ![](/image/MKE_M10_2.jpg) -->
+![](/image/size.jpg)
 
 ## Các chân tín hiệu
 
-![](/image/BTN8982.jpg)
+![](/image/BTN8982_a.jpg)
 <table><thead>
   <tr>
     <th>DC Motor Driver BTN8982/ Chân tín hiệu</th>
@@ -95,9 +100,9 @@ Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ d
 ## Hướng dẫn sử dụng với Vietduino Uno
   Sử dụng Vietduino Uno cấp xung PWM cho DC Motor Driver BTN8982 để điều khiển một động cơ DC 12V quay thuận - nghịch.
 
-![](/image/circuit.png)
+![](/image/circuit_1.png)
 
-[tải chương trình mẫu tại đây](arduino/dao_chieu_dong_co_DC)
+[tải chương trình mẫu tại đây](arduino/BTN8982_test)
 
 ## Hỗ trợ và liên hệ
 
