@@ -4,24 +4,22 @@
 
 ## Giới thiệu
 
-Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng điều khiển động cơ ở tần số cao (ổn định ở mức 30kHz). Driver có thể điều khiển được một động cơ DC 2 chiều có chổi than hoặc hai động cơ DC 1 chiều. Mạch tích hợp MOSFET P chống cấp ngược nguồn và IC chuyển mức tín hiệu (3.3/5VDC) 74HC244 giúp kết nối an toàn với vi điều khiển khi sử dụng. 
+Mạch điều khiển động cơ DC Motor Driver BTN8982 có khả năng điều khiển động cơ ở tần số cao (ổn định ở mức 30kHz). Driver có thể điều khiển được một động cơ DC đảo chiều (thuận, nghịch) có chổi than hoặc hai động cơ DC 1 chiều. Mạch tích hợp IC chuyển mức tín hiệu (3.3/5VDC) 74HC244 giúp kết nối an toàn với vi điều khiển khi sử dụng. 
 
-- Tích hợp tính năng bảo vệ chống cấp ngược nguồn.
+- Tích hợp MOSFET bảo vệ chống cấp ngược nguồn.
 - Tích hợp IC buffer điều khiển dòng và bảo vệ các tín hiệu đầu vào/đầu ra. IC này có thể hoạt động như một bộ đệm 8 bit, giúp tăng cường tín hiệu và bảo vệ các vi điều khiển khỏi các tín hiệu nhiễu.
-- IC BTN8982 được thiết kế để điều khiển động cơ DC với dòng điện cao, cung cấp các chức năng bảo vệ như chống quá nhiệt, chống quá dòng và chống ngắn mạch.
-- Mạch đồng dày 2Oz giúp tăng khả năng dẫn điện và tản nhiệt khi có dòng điện cao.
+- IC BTN8982 chính hãng được thiết kế để điều khiển động cơ DC với dòng điện cao, cung cấp các chức năng bảo vệ như chống quá nhiệt, chống quá dòng và chống ngắn mạch.
+- Mạch đồng dày 2 Oz giúp tăng khả năng dẫn điện và tản nhiệt khi có dòng điện cao.
 
 Vietduino Uno, Arduino Uno hay bất kì board tương đương có thể dễ dàng điều khiểu DC Motor Driver BTN8982.
 
 ## Thông số kỹ thuật
 
-- Nguồn cấp: 8~18VDC (tối đa 40VDC).
+- Nguồn cấp: hoạt động ổn định tại 8~18VDC (tối đa 40VDC).
 - Dòng điện tải mạch: 20A (tải cảm), 50A (tải trở).
 - Tín hiệu logic điều khiển: 3.3~5VDC.
 - Tần số điều khiển: hoạt động ổn định ở tần số 30kHz, tần số thấp hơn có thể làm giảm hiệu năng.
 - Tự động shut down khi điện áp thấp ở chân Vin thấp.
-- Bảo vệ quá nhiệt: BTN8982 bảo vệ chống quá nhiệt bằng cảm biến tích hợp bên trong. Đầu ra sẽ bị ngắt khi có hiện tượng quá nhiệt.
-- Chống cấp ngược nguồn: tích hợp MOSFET P giúp bảo vệ mạch khi cấp ngược nguồn ở chân Vin.
 - Kích thước: 88 x 60 x 27mm.
 
 ## Kích thước
